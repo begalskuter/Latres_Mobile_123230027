@@ -1,19 +1,22 @@
-name: latres_mobile_123230027
-description: "A new Flutter project."
+name: tv_show_app
+description: TV show app using GetX, Hive, SharedPreferences, and TVMaze API.
 publish_to: 'none'
-version: 0.1.0+1
+version: 1.0.0+1
 
 environment:
-  sdk: ^3.11.0
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^6.0.0
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  cached_network_image: ^3.4.1
+  flutter_html: ^3.0.0-beta.2
 
 flutter:
   uses-material-design: true
